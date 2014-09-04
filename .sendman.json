@@ -1,0 +1,5 @@
+{
+  "protocol": "rsync",
+  "source": ".bob/site/ae86/",
+  "destination": "../cliffano.github.io/"
+}

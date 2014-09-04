@@ -1,0 +1,9 @@
+{
+  "deploy": "clean site send",
+  "site": {
+    "type": "ae86"
+  },
+  "send": {
+    "type": "sendman"
+  }
+}
