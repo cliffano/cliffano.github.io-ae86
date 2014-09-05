@@ -1,3 +1,17 @@
 <div class="page">
-  PLACEHOLDER
+  {foreach project in projects}
+    <div class="note">
+      <div class="title">
+        <a href="{url(project.key, project.value.scm, 'page')}">{project.key}</a>
+      </div>
+      {foreach service in project.value.status}
+        <div class="service">
+          <a href="{url(project.key, service, 'page')}">
+            <img src="{url(project.key, service, 'badge')}" alt="{project.key} {service} badge"/>
+          </a>
+        </div>
+      {end}
+      <br/>
+    </div>
+  {end}
 </div>
