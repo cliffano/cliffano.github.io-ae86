@@ -60,6 +60,12 @@ div.service a {
     background-color: #eeeeee;
     text-decoration: none;
 }
+button.navbar-toggle {
+    background-color: #eeeeee;
+}
+span.icon-bar {
+    background-color: #000000;
+}
 footer {
     color: #2c2c2c;
     font-size: 95%;
