@@ -43,6 +43,7 @@ div#body {
     padding: 0 5px;
 }
 div.page {
+    background-color: #ffffff;
     padding: 0;
 }
 div.note {
@@ -59,6 +60,9 @@ div.note div.title {
 div.service a {
     background-color: #eeeeee;
     text-decoration: none;
+}
+div.service img {
+    padding: 2px;
 }
 button.navbar-toggle {
     background-color: #eeeeee;
@@ -79,12 +83,10 @@ footer strong {
 a, a:visited {
     background-color: #eeeeee;
     color: #000000;
-    padding: 3px;
     text-decoration: none;
 }
 a:hover, a:active {
     background-color: #666666;
     color: #eeeeee;
-    padding: 3px;
     text-decoration: none;
 }
