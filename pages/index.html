@@ -7,7 +7,7 @@
       {foreach service in project.value.status}
         <div class="service">
           <a href="{url(project.key, service, 'page')}">
-            <img src="{url(project.key, service, 'badge')}" alt="{project.key} {service} badge"/>
+            <img src="{url(project.key, service, 'badge')}" alt="{service} badge"/>
           </a>
         </div>
       {end}
