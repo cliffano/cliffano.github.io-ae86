@@ -80,6 +80,10 @@ exports.params = {
             scm: 'github.com',
             status: ['travis-ci.org', 'david-dm.org', 'coveralls.io', 'badge.fury.io/js' ]
         },
+        'cliffano.github.io-ae86: {
+            scm: 'github.com',
+            status: ['travis-ci.org', 'david-dm.org' ]
+        },
         cmdt: {
             scm: 'github.com',
             status: ['travis-ci.org', 'david-dm.org', 'coveralls.io', 'badge.fury.io/js' ]
