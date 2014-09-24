@@ -120,6 +120,10 @@ exports.params = {
             scm: 'github.com',
             status: ['travis-ci.org', 'david-dm.org', 'coveralls.io', 'badge.fury.io/js' ]
         },
+        'nestor-buildlight': {
+            scm: 'github.com',
+            status: ['travis-ci.org', 'david-dm.org', 'coveralls.io', 'badge.fury.io/js' ]
+        },
         pkjutil: {
             scm: 'github.com',
             status: ['travis-ci.org', 'david-dm.org', 'coveralls.io', 'badge.fury.io/js' ]
