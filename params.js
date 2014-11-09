@@ -50,7 +50,7 @@ exports.params = {
         },
         bagofholding: {
             scm: 'github.com',
-            status: ['travis-ci.org', 'david-dm.org', 'coveralls.io', 'badge.fury.io/js' ]
+            status: ['travis-ci.org', 'david-dm.org', 'badge.fury.io/js' ]
         },
         bagofrequest: {
             scm: 'github.com',
