@@ -106,7 +106,7 @@ exports.params = {
         },
         feedpaper: {
             scm: 'github.com',
-            status: ['travis-ci.org', 'david-dm.org', 'coveralls.io', 'badge.fury.io/js' ]
+            status: ['travis-ci.org', 'david-dm.org' ]
         },
         'generator-bob': {
             scm: 'github.com',
