@@ -37,7 +37,8 @@ function url(project, service, type, cb) {
 
 exports.params = {
     sitemap: {
-        'index.html': { title: 'Status' }
+        'index.html': { title: 'Status' },
+        'development.html': { title: 'Development' }
     },
     projects: {
         ae86: {
