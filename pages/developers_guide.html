@@ -1,0 +1,29 @@
+<div class="page">
+  <h3>/node.js</h3>
+  <p>
+    All of my node projects use <a href="http://github.com/cliffano/bob">Bob</a> as the build tool.<br/>
+    A build involves running lint, complexity check, unit tests, tests coverage check, integration tests, and API documentation.
+  </p>
+  <p>
+    First, you need to install Bob (this is once-off only, unless you want to upgrade):
+  </p>
+  <blockquote>
+    npm install -g bob
+  </blockquote>
+  <p>
+    Make your code changes, don't forget to add test(s). Each set of changes should involve either a new or modified test.<br/>
+    Before each commit, build the project from its root directory (same level as package.json):
+  </p>
+  <blockquote>
+    bob build
+  </blockquote>
+  <p>
+    The build currently doesn't have any coverage and complexity threshold.<br/>
+    Less than 100% coverage is currently allowed, but please aim for 100%.<br/>
+    As for complexity, please aim for greater than <a href="http://jscomplexity.org/complexity">65</a> on average maintainability.
+  </p>
+  <p>
+    If everything is good to go, you can submit a pull request.<br/>
+    Travis CI will then kick in to make sure that your PR builds fine.
+  </p>
+</div>
