@@ -5,14 +5,21 @@
     A build involves running lint, complexity check, unit tests, tests coverage check, integration tests, and API documentation.
   </p>
   <p>
-    First, you need to install Bob (this is once-off only, unless you want to upgrade):
+    First, you need to install Bob (this is once-off only per node, unless you want to upgrade Bob):
   </p>
   <blockquote>
     npm install -g bob
   </blockquote>
   <p>
+    Go to the project directory on the same level as package.json.<br/>
+    Download project dependencies (this is once-off only per project, unless when you modify the dependencies):
+  </p>
+  <blockquote>
+    bob rmdep dep
+  </blockquote>
+  <p>
     Make your code changes, don't forget to add test(s). Each set of changes should involve either a new or modified test.<br/>
-    Before each commit, build the project from its root directory (same level as package.json):
+    Before each commit, make sure you build the project:
   </p>
   <blockquote>
     bob build
