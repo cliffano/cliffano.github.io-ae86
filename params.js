@@ -9,6 +9,10 @@ var services = {
         badge: 'https://badge.fury.io/js/{project}.png?branch=master',
         page: 'http://badge.fury.io/js/{project}'
     },
+    'badge.fury.io/py': {
+        badge: 'https://badge.fury.io/py/{project}.png?branch=master',
+        page: 'http://badge.fury.io/py/{project}'
+    },
     'coveralls.io': {
         badge: 'https://coveralls.io/repos/{username}/{project}/badge.png',
         page: 'https://coveralls.io/r/{username}/{project}?branch=master',
@@ -144,6 +148,10 @@ exports.params = {
         roombox: {
             scm: 'github.com',
             status: ['travis-ci.org', 'david-dm.org', 'coveralls.io', 'badge.fury.io/js' ]
+        },
+        pyaem: {
+            scm: 'github.com',
+            status: ['travis-ci.org', 'coveralls.io', 'badge.fury.io/py' ]
         },
         sapi: {
             scm: 'github.com',
