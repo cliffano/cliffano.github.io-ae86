@@ -149,10 +149,6 @@ exports.params = {
             scm: 'github.com',
             status: ['travis-ci.org', 'david-dm.org', 'coveralls.io', 'badge.fury.io/js' ]
         },
-        pyaem: {
-            scm: 'github.com',
-            status: ['travis-ci.org', 'coveralls.io', 'badge.fury.io/py' ]
-        },
         sapi: {
             scm: 'github.com',
             status: ['travis-ci.org', 'david-dm.org', 'coveralls.io', 'badge.fury.io/js' ]
