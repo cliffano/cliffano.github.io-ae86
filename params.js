@@ -164,6 +164,14 @@ exports.params = {
         ute: {
             scm: 'github.com',
             status: ['travis-ci.org', 'david-dm.org', 'coveralls.io', 'badge.fury.io/js' ]
+        },
+        wordniksearch: {
+            scm: 'github.com',
+            status: ['travis-ci.org' ]
+        },
+        'wp-emptiness': {
+            scm: 'github.com',
+            status: ['travis-ci.org' ]
         }
     },
     url: url
