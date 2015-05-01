@@ -49,6 +49,10 @@ exports.params = {
             scm: 'github.com',
             status: ['travis-ci.org', 'david-dm.org', 'coveralls.io', 'badge.fury.io/js' ]
         },
+        'ansible-role-droplet-docker': {
+            scm: 'github.com',
+            status: ['travis-ci.org' ]
+        },
         bagofcli: {
             scm: 'github.com',
             status: ['travis-ci.org', 'david-dm.org', 'coveralls.io', 'badge.fury.io/js' ]
@@ -136,6 +140,10 @@ exports.params = {
         'nestor-ninjablocks': {
             scm: 'github.com',
             status: ['travis-ci.org', 'david-dm.org', 'coveralls.io', 'badge.fury.io/js' ]
+        },
+        'packer-post-processor-json-updater': {
+            scm: 'github.com',
+            status: ['travis-ci.org']
         },
         pkjutil: {
             scm: 'github.com',
