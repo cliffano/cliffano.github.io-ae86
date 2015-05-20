@@ -137,6 +137,10 @@ exports.params = {
             scm: 'github.com',
             status: ['travis-ci.org', 'david-dm.org', 'coveralls.io', 'npmjs.com' ]
         },
+        'nestor-lifx': {
+            scm: 'github.com',
+            status: ['travis-ci.org', 'david-dm.org', 'coveralls.io', 'npmjs.com' ]
+        },
         'nestor-ninjablocks': {
             scm: 'github.com',
             status: ['travis-ci.org', 'david-dm.org', 'coveralls.io', 'npmjs.com' ]
