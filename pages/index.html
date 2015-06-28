@@ -4,7 +4,7 @@
       <div class="title">
         <a href="{url(project.key, project.value.scm, 'page')}">{project.key}</a>
       </div>
-      {foreach service in project.value.status}
+      {foreach service in project.value.services}
         <div class="service">
           <a href="{url(project.key, service, 'page')}">
             <img src="{url(project.key, service, 'badge')}" alt="{service} badge"/>

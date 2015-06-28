@@ -47,143 +47,143 @@ exports.params = {
     projects: {
         ae86: {
             scm: 'github.com',
-            status: ['travis-ci.org', 'david-dm.org', 'coveralls.io', 'npmjs.com' ]
+            services: ['travis-ci.org', 'david-dm.org', 'coveralls.io', 'npmjs.com' ]
         },
         'ansible-role-droplet-docker': {
             scm: 'github.com',
-            status: ['travis-ci.org' ]
+            services: ['travis-ci.org' ]
         },
         bagofcli: {
             scm: 'github.com',
-            status: ['travis-ci.org', 'david-dm.org', 'coveralls.io', 'npmjs.com' ]
+            services: ['travis-ci.org', 'david-dm.org', 'coveralls.io', 'npmjs.com' ]
         },
         bagofholding: {
             scm: 'github.com',
-            status: ['travis-ci.org', 'david-dm.org', 'npmjs.com' ]
+            services: ['travis-ci.org', 'david-dm.org', 'npmjs.com' ]
         },
         bagofrequest: {
             scm: 'github.com',
-            status: ['travis-ci.org', 'david-dm.org', 'coveralls.io', 'npmjs.com' ]
+            services: ['travis-ci.org', 'david-dm.org', 'coveralls.io', 'npmjs.com' ]
         },
         bagoftext: {
             scm: 'github.com',
-            status: ['travis-ci.org', 'david-dm.org', 'coveralls.io', 'npmjs.com' ]
+            services: ['travis-ci.org', 'david-dm.org', 'coveralls.io', 'npmjs.com' ]
         },
         blogmap4j: {
             scm: 'github.com',
-            status: ['travis-ci.org' ]
+            services: ['travis-ci.org' ]
         },
         bloojm: {
             scm: 'github.com',
-            status: ['travis-ci.org' ]
+            services: ['travis-ci.org' ]
         },
         bob: {
             scm: 'github.com',
-            status: ['travis-ci.org', 'david-dm.org', 'coveralls.io', 'npmjs.com' ]
+            services: ['travis-ci.org', 'david-dm.org', 'coveralls.io', 'npmjs.com' ]
         },
         breaker: {
             scm: 'github.com',
-            status: ['travis-ci.org', 'david-dm.org', 'coveralls.io', 'npmjs.com' ]
+            services: ['travis-ci.org', 'david-dm.org', 'coveralls.io', 'npmjs.com' ]
         },
         buildlight: {
             scm: 'github.com',
-            status: ['travis-ci.org', 'david-dm.org', 'coveralls.io', 'npmjs.com' ]
+            services: ['travis-ci.org', 'david-dm.org', 'coveralls.io', 'npmjs.com' ]
         },
         'cliffano.github.io-ae86': {
             scm: 'github.com',
-            status: ['travis-ci.org', 'david-dm.org' ]
+            services: ['travis-ci.org', 'david-dm.org' ]
         },
         cmdt: {
             scm: 'github.com',
-            status: ['travis-ci.org', 'david-dm.org', 'coveralls.io', 'npmjs.com' ]
+            services: ['travis-ci.org', 'david-dm.org', 'coveralls.io', 'npmjs.com' ]
         },
         couchpenter: {
             scm: 'github.com',
-            status: ['travis-ci.org', 'david-dm.org', 'coveralls.io', 'npmjs.com' ]
+            services: ['travis-ci.org', 'david-dm.org', 'coveralls.io', 'npmjs.com' ]
         },
         couchtato: {
             scm: 'github.com',
-            status: ['travis-ci.org', 'david-dm.org', 'coveralls.io', 'npmjs.com' ]
+            services: ['travis-ci.org', 'david-dm.org', 'coveralls.io', 'npmjs.com' ]
         },
         datagen: {
             scm: 'github.com',
-            status: ['travis-ci.org', 'david-dm.org', 'coveralls.io', 'npmjs.com' ]
+            services: ['travis-ci.org', 'david-dm.org', 'coveralls.io', 'npmjs.com' ]
         },
         eggtart: {
             scm: 'github.com',
-            status: ['travis-ci.org', 'david-dm.org', 'coveralls.io', 'npmjs.com' ]
+            services: ['travis-ci.org', 'david-dm.org', 'coveralls.io', 'npmjs.com' ]
         },
         feedpaper: {
             scm: 'github.com',
-            status: ['travis-ci.org', 'david-dm.org' ]
+            services: ['travis-ci.org', 'david-dm.org' ]
         },
         'generator-bob': {
             scm: 'github.com',
-            status: ['travis-ci.org', 'david-dm.org', 'coveralls.io', 'npmjs.com' ]
+            services: ['travis-ci.org', 'david-dm.org', 'coveralls.io', 'npmjs.com' ]
         },
         health: {
             scm: 'github.com',
-            status: ['travis-ci.org', 'david-dm.org', 'coveralls.io', 'npmjs.com' ]
+            services: ['travis-ci.org', 'david-dm.org', 'coveralls.io', 'npmjs.com' ]
         },
         'jazz-cli': {
             scm: 'github.com',
-            status: ['travis-ci.org', 'david-dm.org', 'coveralls.io', 'npmjs.com' ]
+            services: ['travis-ci.org', 'david-dm.org', 'coveralls.io', 'npmjs.com' ]
         },
         nestor: {
             scm: 'github.com',
-            status: ['travis-ci.org', 'david-dm.org', 'coveralls.io', 'npmjs.com' ]
+            services: ['travis-ci.org', 'david-dm.org', 'coveralls.io', 'npmjs.com' ]
         },
         'nestor-buildlight': {
             scm: 'github.com',
-            status: ['travis-ci.org', 'david-dm.org', 'coveralls.io', 'npmjs.com' ]
+            services: ['travis-ci.org', 'david-dm.org', 'coveralls.io', 'npmjs.com' ]
         },
         'nestor-lifx': {
             scm: 'github.com',
-            status: ['travis-ci.org', 'david-dm.org', 'coveralls.io', 'npmjs.com' ]
+            services: ['travis-ci.org', 'david-dm.org', 'coveralls.io', 'npmjs.com' ]
         },
         'nestor-ninjablocks': {
             scm: 'github.com',
-            status: ['travis-ci.org', 'david-dm.org', 'coveralls.io', 'npmjs.com' ]
+            services: ['travis-ci.org', 'david-dm.org', 'coveralls.io', 'npmjs.com' ]
         },
         'packer-post-processor-json-updater': {
             scm: 'github.com',
-            status: ['travis-ci.org']
+            services: ['travis-ci.org']
         },
         pkjutil: {
             scm: 'github.com',
-            status: ['travis-ci.org', 'david-dm.org', 'coveralls.io', 'npmjs.com' ]
+            services: ['travis-ci.org', 'david-dm.org', 'coveralls.io', 'npmjs.com' ]
         },
         repoman: {
             scm: 'github.com',
-            status: ['travis-ci.org', 'david-dm.org', 'coveralls.io', 'npmjs.com' ]
+            services: ['travis-ci.org', 'david-dm.org', 'coveralls.io', 'npmjs.com' ]
         },
         roombox: {
             scm: 'github.com',
-            status: ['travis-ci.org', 'david-dm.org', 'coveralls.io', 'npmjs.com' ]
+            services: ['travis-ci.org', 'david-dm.org', 'coveralls.io', 'npmjs.com' ]
         },
         sapi: {
             scm: 'github.com',
-            status: ['travis-ci.org', 'david-dm.org', 'coveralls.io', 'npmjs.com' ]
+            services: ['travis-ci.org', 'david-dm.org', 'coveralls.io', 'npmjs.com' ]
         },
         sendman: {
             scm: 'github.com',
-            status: ['travis-ci.org', 'david-dm.org', 'coveralls.io', 'npmjs.com' ]
+            services: ['travis-ci.org', 'david-dm.org', 'coveralls.io', 'npmjs.com' ]
         },
         tagyu4j: {
             scm: 'github.com',
-            status: ['travis-ci.org' ]
+            services: ['travis-ci.org' ]
         },
         ute: {
             scm: 'github.com',
-            status: ['travis-ci.org', 'david-dm.org', 'coveralls.io', 'npmjs.com' ]
+            services: ['travis-ci.org', 'david-dm.org', 'coveralls.io', 'npmjs.com' ]
         },
         wordniksearch: {
             scm: 'github.com',
-            status: ['travis-ci.org' ]
+            services: ['travis-ci.org' ]
         },
         'wp-emptiness': {
             scm: 'github.com',
-            status: ['travis-ci.org' ]
+            services: ['travis-ci.org' ]
         }
     },
     url: url
