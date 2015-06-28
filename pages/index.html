@@ -11,6 +11,13 @@
           </a>
         </div>
       {end}
+      {if project.value.scm eq "github.com"}
+      <div class="service">
+        <a href="{url(project.key, 'github.com-issues', 'page')}">
+          <img src="{url(project.key, 'github.com-issues', 'badge')}" alt="{project.value.scm} issues badge"/>
+        </a>
+      </div>
+      {end}
       <br/>
     </div>
   {end}

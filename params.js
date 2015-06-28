@@ -24,6 +24,10 @@ var services = {
     'github.com': {
         page: 'http://github.com/{username}/{project}'
     },
+    'github.com-issues': {
+        badge: 'https://img.shields.io/github/issues-raw/{username}/{project}.svg',
+        page: 'http://github.com/{username}/{project}/issues'
+    },
     'nodei.co': {
         badge: 'https://nodei.co/npm/{project}.png',
         page: 'http://npmjs.org/package/{project}'
