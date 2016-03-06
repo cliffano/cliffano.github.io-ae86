@@ -55,7 +55,7 @@ exports.params = {
         },
         'ansible-role-droplet-docker': {
             scm: 'github.com',
-            services: ['travis-ci.org' ]
+            services: []
         },
         bagofcli: {
             scm: 'github.com',
