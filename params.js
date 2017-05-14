@@ -177,7 +177,23 @@ exports.params = {
             scm: 'github.com',
             services: ['travis-ci.org', 'david-dm.org', 'coveralls.io', 'npmjs.com' ]
         },
+        'swaggy-c': {
+            scm: 'github.com',
+            services: ['travis-ci.org' ]
+        },
+        'swaggy-jenkins': {
+            scm: 'github.com',
+            services: ['travis-ci.org' ]
+        },
+        'swaggy-jenkins-cli': {
+            scm: 'github.com',
+            services: ['travis-ci.org', 'david-dm.org', 'coveralls.io', 'npmjs.com' ]
+        },
         tagyu4j: {
+            scm: 'github.com',
+            services: ['travis-ci.org' ]
+        },
+        tino: {
             scm: 'github.com',
             services: ['travis-ci.org' ]
         },
