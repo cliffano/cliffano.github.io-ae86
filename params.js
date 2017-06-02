@@ -157,6 +157,10 @@ exports.params = {
             scm: 'github.com',
             services: ['travis-ci.org']
         },
+        'packer-swaggy-c': {
+            scm: 'github.com',
+            services: ['travis-ci.org']
+        },
         pkjutil: {
             scm: 'github.com',
             services: ['travis-ci.org', 'david-dm.org', 'coveralls.io', 'npmjs.com' ]
@@ -179,7 +183,7 @@ exports.params = {
         },
         'swaggy-c': {
             scm: 'github.com',
-            services: ['travis-ci.org' ]
+            services: ['travis-ci.org', 'david-dm.org', 'coveralls.io', 'npmjs.com' ]
         },
         'swaggy-jenkins': {
             scm: 'github.com',
