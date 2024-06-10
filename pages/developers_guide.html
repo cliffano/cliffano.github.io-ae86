@@ -1,36 +1,66 @@
 <div class="page">
-  <h3 id="nodejs">/node.js</h3>
+  <h2 id="common">:: Common</h2>
   <p>
-    All of my node projects use <a href="http://github.com/cliffano/bob">Bob</a> as the build tool.<br/>
-    A build involves running lint, complexity check, unit tests, tests coverage check, integration tests, and API documentation.
+    All projects are hosted on GitHub and utilise GitHub Actions workflows as build pipelines,
+    versioned using <a href="https://semver.org/"></a>Semantic Versioning</a> scheme, and the changelog uses [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) format.<br/>
+    Each single build run involves running lint check, complexity check, unit tests, coverage check, integration tests, and generating API documentation.<br/>
   </p>
+  <h2 id="nodejs">:: node.js</h2>
   <p>
-    First, you need to install Bob (this is once-off only per node, unless you want to upgrade Bob):
+    The node projects use <a href="https://github.com/cliffano/bob">Bob</a> as the build tool.<br/>
+    The codebases were generated using <a href="https://github.com/cliffano/generator-node">Generator-node</a>.<br/>
   </p>
-  <blockquote>
-    npm install -g bob
-  </blockquote>
-  <p>
-    Go to the project directory on the same level as package.json.<br/>
-    Download project dependencies (this is once-off only per project, unless when you modify the dependencies):
-  </p>
-  <blockquote>
-    bob rmdep dep
-  </blockquote>
-  <p>
-    Make your code changes, don't forget to add test(s). Each set of changes should involve either a new or modified test.<br/>
-    Before each commit, make sure you build the project:
-  </p>
-  <blockquote>
-    bob build
-  </blockquote>
-  <p>
-    The build currently doesn't have any coverage and complexity threshold.<br/>
-    Less than 100% coverage is currently allowed, but please aim for 100%.<br/>
-    As for complexity, please aim for greater than <a href="http://jscomplexity.org/complexity">65</a> on average maintainability.
-  </p>
-  <p>
-    If everything is good to go, you can submit a pull request.<br/>
-    Travis CI will then kick in to make sure that your PR builds fine.
-  </p>
+  <ol>
+    <li>Install Bob: <code>npm install -g bob</code></li>
+    <li>Fork the repository</li>
+    <li>Make the code changes (logic, testing, documentation)</li>
+    <li>Run the full build: <code>bob build</code></li>
+    <li>Rinse and repeat until the full build passes</li>
+    <li>Add a note to CHANGELOG.md</li>
+    <li>Commit, push, and create pull request</li>
+  </ol>
+  <table>
+    <tr>
+      <th>Step</th>
+      <th>Command</th>
+      <th>Tool</th>
+      <th>Notes</th>
+    </tr>
+    <tr>
+      <td>Lint</td>
+      <td>bob lint</td>
+      <td><a href="https://eslint.org/">ESLint</a></td>
+      <td>Must pass without error.</td>
+    </tr>
+    <tr>
+      <td>Complexity</td>
+      <td>bob complexity</td>
+      <td>plato</td>
+      <td>Aim for maintainability score greater than <a href="https://www.ecs.csun.edu/~rlingard/comp589/ColemanPaper.pdf">65</a>.</td>
+    </tr>
+    <tr>
+      <td>Unit Tests</td>
+      <td>bob test</td>
+      <td><a href="https://mochajs.org/">Mocha</a></td>
+      <td>Each set of changes should involve either a new or modified unit tests. Must pass without error.</td>
+    </tr>
+    <tr>
+      <td>Coverage</td>
+      <td>bob coverage</td>
+      <td><a href="https://github.com/bcoe/c8">c8</a></td>
+      <td>Must have 100% test coverage.</td>
+    </tr>
+    <tr>
+      <td>Integration Tests</td>
+      <td>bob test-integration</td>
+      <td><a href="https://mochajs.org/">Mocha</a>, <a href="https://github.com/cliffano/cmdt">cmdt</a></td>
+      <td>Must pass without error.</td>
+    </tr>
+    <tr>
+      <td>API Documentation</td>
+      <td>bob doc</td>
+      <td><a href="https://jsdoc.app/">JSDoc</a></td>
+      <td>Ensure sufficient code comments.</td>
+    </tr>
+  </table>
 </div>
