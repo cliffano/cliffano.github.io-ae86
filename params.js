@@ -1,10 +1,14 @@
-var jazz = require('jazz');
+"use strict"
+import fs from 'fs';
+import jazz from 'jazz';
 
-var usernames = {
+const sitemap = JSON.parse(fs.readFileSync('./data/sitemap.json'));
+
+const usernames = {
     'github.com': 'cliffano'
 };
 
-var services = {
+const services = {
     'npmjs.com': {
         badge: 'https://img.shields.io/npm/v/{project}.svg',
         page: 'http://www.npmjs.com/package/{project}'
@@ -43,11 +47,8 @@ function url(project, service, type, cb) {
     jazz.compile(services[service][type]).process(params, cb);
 }
 
-exports.params = {
-    sitemap: {
-        'index.html': { title: 'Project Status' },
-        'developers_guide.html': { title: 'Developer\'s Guide' }
-    },
+const params = {
+    sitemap: sitemap,
     projects: {
         ae86: {
             scm: 'github.com',
@@ -215,4 +216,8 @@ exports.params = {
         }
     },
     url: url
+};
+
+export {
+    params as params
 };

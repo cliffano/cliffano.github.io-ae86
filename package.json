@@ -1,8 +1,9 @@
 {
   "name": "cliffano.github.io-ae86",
   "version": "0.0.0",
+  "type": "module",
   "private": true,
   "dependencies": {
-    "jazz": "~0.0.18"
+    "jazz": "^0.0.18"
   }
 }
