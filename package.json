@@ -4,6 +4,7 @@
   "type": "module",
   "private": true,
   "dependencies": {
-    "jazz": "^0.0.18"
+    "jazz": "^0.0.18",
+    "jsonlint-dir": "^1.7.0"
   }
 }
