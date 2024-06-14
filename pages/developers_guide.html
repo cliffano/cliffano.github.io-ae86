@@ -1,24 +1,16 @@
 <div class="page">
-  <h2 id="common">:: Common</h2>
+  <h2 id="common">::Common</h2>
   <p>
-    All projects are hosted on GitHub and utilise GitHub Actions workflows as build pipelines,
-    versioned using <a href="https://semver.org/"></a>Semantic Versioning</a> scheme, and the changelog uses [Keep a Changelog](https://keepachangelog.com/en/1.1.0/) format.<br/>
-    Each single build run involves running lint check, complexity check, unit tests, coverage check, integration tests, and generating API documentation.<br/>
+    All projects are hosted on <a href="https://github.com/cliffano">GitHub</a> and they utilise GitHub Actions workflows as build pipelines.<br/>
+    They are versioned using <a href="https://semver.org/">Semantic Versioning</a> scheme, and the changelog uses <a href="https://keepachangelog.com/en/1.1.0/">Keep a Changelog</a> format.<br/>
+    Each single build run involves running lint check, complexity check, unit tests, coverage check, integration tests, and documentation generation.<br/>
   </p>
-  <h2 id="nodejs">:: node.js</h2>
+  <h2 id="nodejs">::node.js</h2>
   <p>
-    The node projects use <a href="https://github.com/cliffano/bob">Bob</a> as the build tool.<br/>
+    node projects use <a href="https://github.com/cliffano/bob">Bob</a> as the build tool.<br/>
     The codebases were generated using <a href="https://github.com/cliffano/generator-node">Generator-node</a>.<br/>
   </p>
-  <ol>
-    <li>Install Bob: <code>npm install -g bob</code></li>
-    <li>Fork the repository</li>
-    <li>Make the code changes (logic, testing, documentation)</li>
-    <li>Run the full build: <code>bob build</code></li>
-    <li>Rinse and repeat until the full build passes</li>
-    <li>Add a note to CHANGELOG.md</li>
-    <li>Commit, push, and create pull request</li>
-  </ol>
+  <h3>Build Steps</h3>
   <table>
     <tr>
       <th>Step</th>
@@ -35,7 +27,7 @@
     <tr>
       <td>Complexity</td>
       <td>bob complexity</td>
-      <td>plato</td>
+      <td><a href="https://github.com/es-analysis/plato">plato</a></td>
       <td>Aim for maintainability score greater than <a href="https://www.ecs.csun.edu/~rlingard/comp589/ColemanPaper.pdf">65</a>.</td>
     </tr>
     <tr>
@@ -63,4 +55,14 @@
       <td>Ensure sufficient code comments.</td>
     </tr>
   </table>
+  <h3>Step By Step Guide</h3>
+  <ol>
+    <li>Install Bob: <code>npm install -g bob</code></li>
+    <li>Fork the repository</li>
+    <li>Make the code changes (logic, testing, documentation)</li>
+    <li>Run the full build: <code>bob build</code></li>
+    <li>Rinse and repeat until the full build passes</li>
+    <li>Add a note to CHANGELOG.md</li>
+    <li>Commit, push, and create pull request</li>
+  </ol>
 </div>
