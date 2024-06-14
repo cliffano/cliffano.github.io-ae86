@@ -17,11 +17,11 @@ div#header {
 }
 h1 {
     font-family: Roboto;
+    text-transform: lowercase;
 }
 h2 {
     font-family: Roboto;
-    font-size: 170%;
-    text-transform: uppercase;
+    text-transform: lowercase;
 }
 h3 {
     font-family: Roboto;
